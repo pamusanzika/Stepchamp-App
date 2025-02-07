@@ -1,0 +1,43 @@
+@import "./../../../global.scss";
+
+.configureBtn {
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: #23d856;
+    width: fit-content;
+    &:hover {
+        border-color: $theme-color;
+        background-color: $theme-color;
+        box-shadow:  1px 1px 7px #23d856;
+    }
+}
+
+.status-base {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 150px;
+    padding: 5px;
+    border-radius: 30px;
+}
+
+.status-ongoing {
+    @extend .status-base;
+    border: 1px solid rgb(91, 178, 249);
+    color: rgb(91, 178, 249);
+}
+
+.status-completed {
+    @extend .status-base;
+    border: 1px solid #23d856;
+    color: #23d856;
+}
+
+.status-pending {
+    @extend .status-base;
+    border: 1px solid orange;
+    color: orange;
+}

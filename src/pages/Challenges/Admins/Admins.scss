@@ -1,0 +1,50 @@
+@import "./../../../global.scss";
+
+.save-button {
+    width: 75px;
+    margin-right: 10px;
+    background-color: #23d856;
+    border: none;
+    &:hover {
+        border-color: $theme-color;
+        background-color: $theme-color;
+        box-shadow:  1px 1px 7px #23d856;
+    }
+    &:disabled {
+        background-color: #23d856;
+    }
+}
+
+.cancel-btn {
+    width: 75px;
+    border: none;
+    &:hover {
+        box-shadow:  1px 1px 7px #6c757d;
+    }
+}
+
+.option-item {
+    padding: 6px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    &:hover {
+        background-color: rgb(100, 252, 146);
+    }
+}
+
+.suggestion-box {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    max-height: 200px;
+    overflow-y: auto;
+}
+
+.admin-numbering {
+    margin: 6.5px 0px 0px;
+    float: left;
+    width: 28px;
+}

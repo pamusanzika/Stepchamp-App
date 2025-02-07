@@ -1,0 +1,52 @@
+@import "./../../../global.scss";
+
+.profile-photo {
+  border-radius: 50%;
+  background-color: #23d856;
+  border: none;
+  --bs-btn-active-bg: #23d856;
+  &:hover {
+    border-color: $theme-color;
+    background-color: $theme-color;
+    box-shadow:  1px 1px 7px #23d856;
+  };
+}
+.notification-button {
+  background: none;
+  border: none;
+  margin-right: 10px;
+  --bs-btn-active-bg: white;
+  &:hover {
+    background: none;
+    border: none;
+  }
+}
+.notification-icon {
+  color: #646464;
+  &:hover {
+    color: #23d856;
+  }
+  :active {
+    color: #75dc92fd;
+  }
+}
+.open-side-menu-mobile {
+  display: none;
+}
+.open-side-menu-mobile-button {
+  margin-left: 10px;
+}
+.profile-button-web {
+  margin-right: 10px;
+}
+.search-bar {
+  margin-left: 25px;
+}
+@media (max-width: 768px) {
+  .open-side-menu-mobile {
+    display: unset;
+  }
+  .profile-button-web {
+    display: none;
+  }
+}

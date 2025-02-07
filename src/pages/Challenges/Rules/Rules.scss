@@ -1,0 +1,56 @@
+@import "./../../../global.scss";
+
+.main-container {
+    padding: 20px;
+}
+
+.row-styles {
+    padding: 10px;
+    align-items: center;
+}
+
+.per-text {
+    padding-left: 25px;
+}
+
+.duration-dropdown {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+    border-color: rgb(185, 181, 181);
+    margin-left: 6px;
+}
+
+.save-button {
+    width: 75px;
+    margin-right: 10px;
+    background-color: #23d856;
+
+    &:hover {
+        border-color: $theme-color;
+        background-color: $theme-color;
+        box-shadow:  1px 1px 7px #23d856;
+    }
+    &:disabled {
+        background-color: #23d856;
+    }  
+}
+
+.cancel-btn {
+    width: 75px;
+    border: none;
+    &:hover {
+        box-shadow:  1px 1px 7px #6c757d;
+    }
+}
+
+.text-label{
+    text-align: right;
+    padding-right: 15px;
+}
+
+.label {
+    margin-bottom: 0;
+}

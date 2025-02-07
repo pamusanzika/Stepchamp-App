@@ -1,0 +1,85 @@
+@import "./../../../global";
+
+$hover-border-highlight-color: rgb(182, 182, 182);
+$hover-background-color: rgb(224, 224, 224);
+
+
+.custom-inputGroup {
+    width: 600px;
+    margin-bottom: 12px;
+}
+
+.custom-inputGroup:hover , .custom-inputGroup:active, .custom-inputGroup:focus
+{
+    border: 1px solid $hover-border-highlight-color;
+    background-color: rgb(255, 255, 255);
+    margin-bottom: 8.5px;
+
+    .custom-input {
+        background-color: rgb(255, 255, 255);
+    }
+
+    .delete-ico {
+        visibility: visible;
+        color: red;
+    }
+}
+
+.custom-inputGroup:focus-within {
+    box-shadow: 0 0 0 0.20rem #75dc92fd;
+}
+
+
+.solid-border-box, .solid-border-box:hover {
+    border: 1px solid $hover-border-highlight-color;
+    background-color: rgb(255, 255, 255);
+    
+
+    .custom-input {
+        background-color:rgb(255, 255, 255);
+    }
+}
+
+
+.no-border {
+    border: 0px;
+}
+
+.custom-input {
+    flex: 1 1 87%!important;
+    outline: none;
+    border-radius: 0px;
+}
+
+.custom-input:focus {
+    box-shadow: none !important;
+}
+
+// Icons
+.delete-ico {
+    visibility: hidden;
+    color: red;
+}
+
+.save-ico {
+    color: green;
+}
+
+.cancel-ico {
+    color: grey;
+}
+
+.custom-icons-div {
+    flex: 1 1 13%!important;
+    padding-right: 10px;
+
+    .custom-icons {
+        padding-left: 10px;
+        margin-top: 12px;
+    }
+
+    div:hover {
+        cursor: pointer;
+        transform: scale3d(1.3, 1.3, 1.3);
+    }
+}

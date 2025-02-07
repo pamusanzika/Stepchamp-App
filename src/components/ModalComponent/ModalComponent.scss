@@ -1,0 +1,9 @@
+@import "./../../global.scss";
+
+.modal-header {
+    background-color: $theme-color;
+
+    .header-title {
+        color: white;
+    }
+}

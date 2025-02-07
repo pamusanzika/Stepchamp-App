@@ -1,0 +1,90 @@
+@import "./../../../global.scss";
+
+.new-main-container {
+    padding: 30px;
+}
+
+.new-row {
+    padding-top: 20px;
+    padding-left: 10px;
+}
+
+.title {
+    margin-bottom: 40px;
+}
+
+.required-asterix {
+    color: red;
+    display: inline;
+    padding-left: 5px;
+}
+
+.invitation-code {
+    margin-left: 40px;
+}
+
+.invitation-code-input-box {
+    min-width: 108px;
+}
+
+.new-save-button {
+    width: 75px;
+    margin-right: 10px;
+    background-color: #23d856;
+    border: none;
+    &:hover {
+        border-color: $theme-color;
+        background-color: $theme-color;
+        box-shadow:  1px 1px 7px #23d856;
+    }
+    &:disabled {
+        background-color: #23d856;
+    }
+}
+
+.cancel-btn {
+    width: 75px;
+    border: none;
+    &:hover {
+        box-shadow:  1px 1px 7px #6c757d;
+    }
+}
+
+.nav-tabs .nav-item {
+    text-decoration-color: #23d856;
+
+}
+
+.nav-tabs .nav-link {
+    color: #0b0e0c;
+
+    &:hover {
+        color: #23d856;
+    }
+}
+
+.spinner-border {
+    color: #1f9741;
+}
+
+.icon-btn {
+    &:hover {
+        background-color: #f8f9fa;
+    }
+}
+
+.icon {
+    color: #23d856;
+    &:hover {
+        color: #1f9741;
+    }
+}
+
+  .form-switch .form-check-input{
+    width: 2.5em;
+    height: 1.3em;
+  }
+
+  .toggle-switch{
+    padding-bottom: 10px;
+  }
